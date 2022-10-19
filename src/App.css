@@ -42,10 +42,21 @@
   color: white;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 7vh;
+ 
 }
 
-.style > a {
+.style a {
   color: white;
   text-decoration: none;
+  margin: 15px 20px;
+}
+
+.style>li {
+  list-style: none;
+  width: 180px;
+  display: flex;
+  justify-content: space-around;
   margin: 15px 20px;
 }
