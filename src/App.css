@@ -60,3 +60,26 @@
   justify-content: space-around;
   margin: 15px 20px;
 }
+
+.navig_nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.navig_nav > a {
+  text-decoration: none;
+  color: black;
+  margin: 7px;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.layout {
+  width :70%;
+  background-color: antiquewhite;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
